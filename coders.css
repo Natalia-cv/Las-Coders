@@ -1,0 +1,75 @@
+body{
+	background-image:url("http://cdn0.dailydot.com/cache/e8/93/e893a91622e46501c256641579674432.jpg");
+	border: 1px dashed #DF0101;
+	background-repeat: no-repeat;
+	background-size: 190%;
+}
+.contenedor{
+	margin: 100px auto;
+	padding:5px;
+	width: 490px;
+	height: auto;
+	position: relative;
+	top: 5px;
+	display: table;
+	/*background-color: #F8E0F1;*/
+	
+	/*background-color: rgba(255,255,255,0.3);*/
+	
+}
+
+.cuadro{
+	/*border:1px solid black;*/
+	position: relative;
+	float: left;
+	margin: 10px 5px;
+	clear: none;
+	-webkit-transition: all 1s ease;
+}
+
+.cuadro img{
+	width: 150px;
+	height: 150px;
+	float: left;
+	border-radius: 70px;
+}
+
+.cuadro h3{
+	position: absolute;
+	padding-top: 125px;
+	padding-left: 55px;
+	font-size: 10px;
+	float: right;
+	clear:right;
+	color: #F79F81;
+	font-family:verdana;
+}
+
+h1{
+	/*font-size: 20px;
+	color:#B45F04;
+	font-family:monospace;
+	text-align:center;*/
+    -webkit-text-stroke: 1px transparent;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: transparent;
+}
+
+h3:hover{
+	color: #FE2E2E;
+}
+
+.cuadro:hover{
+	-webkit-transform: rotate(365deg);
+}
+
+#n{
+    width: 3000px;
+    height: 40px;
+    padding: 20px 10px 0 135px;
+    top: -100px;
+    left: 70px;
+    position: absolute;
+    background: url(http://static.tumblr.com/wwkunix/n8Hkzr160/banner.png) no-repeat top left;
+    color:white;
+}
